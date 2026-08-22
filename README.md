@@ -4,7 +4,7 @@
 
 **🌐 Live Demo → https://hospital-management-system-fawn-six.vercel.app**
 
-![Node](https://img.shields.io/badge/node-%E2%89%A520-brightgreen) ![React](https://img.shields.io/badge/react-18-61dafb) ![Express](https://img.shields.io/badge/express-4-000000) ![Turso](https://img.shields.io/badge/database-libSQL%20%2F%20Turso-ff4f00) ![License](https://img.shields.io/badge/license-MIT-blue) [![CI](https://github.com/rigved-24/medicare-hospital-management-system/actions/workflows/ci.yml/badge.svg)](https://github.com/rigved-24/medicare-hospital-management-system/actions/workflows/ci.yml)
+![Node](https://img.shields.io/badge/node-%E2%89%A520-brightgreen) ![React](https://img.shields.io/badge/react-18-61dafb) ![Express](https://img.shields.io/badge/express-4-000000) ![Turso](https://img.shields.io/badge/database-libSQL%20%2F%20Turso-ff4f00) ![License](https://img.shields.io/badge/license-MIT-blue) [![CI](https://github.com/Rugved-24/medicare-hospital-management-system/actions/workflows/ci.yml/badge.svg)](https://github.com/Rugved-24/medicare-hospital-management-system/actions/workflows/ci.yml)
 
 ![MediCare Dashboard](docs/screenshots/02-dashboard.png)
 
@@ -130,7 +130,7 @@ Additional hardening: login rate-limiting (25 attempts / 15 min), generic authen
 ## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/rigved-24/medicare-hospital-management-system.git
+git clone https://github.com/Rugved-24/medicare-hospital-management-system.git
 cd medicare-hospital-management-system
 
 # Terminal 1 — API on http://localhost:4000
@@ -214,4 +214,4 @@ All routes are prefixed with `/api` and require a `Authorization: Bearer <token>
 
 ---
 
-Built with ❤️ by [Rigved](https://github.com/rigved-24) — feedback and stars appreciated!
+Built with ❤️ by [Rigved](https://github.com/Rugved-24) — feedback and stars appreciated!
