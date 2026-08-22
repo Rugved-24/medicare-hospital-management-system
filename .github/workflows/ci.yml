@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            client/package-lock.json
+
+      - name: Install API dependencies
+        run: npm ci
+
+      - name: Lint server syntax
+        run: |
+          find server/src -name "*.js" -exec node --check {} \;
+          node --check api/index.js
+
+      - name: Build client
+        working-directory: client
+        run: |
+          npm ci
+          npm run build
