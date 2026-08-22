@@ -1,0 +1,19 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+
+# Local database + secrets — never commit
+server/data/
+
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+
+.vercel
+.env*
+
+# Vercel project link
+.vercel/
